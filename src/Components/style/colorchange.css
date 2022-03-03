@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .maincontainer {
+    padding: 2%;
+  }
+  
+  .maincontainer ul li {
+    list-style-type: none;
+    padding: 2%;
+    margin: 2%;
+    background-color:bisque ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .maincontainer ul li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 3%;
+  }
+  
+  .maincontainer ul li button {
+    background-color: aliceblue;
+    border: none;
+    border-radius: .3rem;
+    width: 60px;
+    height: 20px;
+  }
+  
